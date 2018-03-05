@@ -1,0 +1,35 @@
+.activityList{    padding-top: 60px;}
+.activityImg{float: right;width: 508px;}
+.activityInformation{float: left;position: relative;background: #f6f6f6;}
+.activityRight .activityImg{float: left;}
+.activityRight .activityInformation{float: right;background: #f6f6f6;}
+.activityInformation>div{padding: 22px 32px 10px 34px;}
+.activityImg img{width: 100%;}
+.activityInformation h2{font-size: 18px;    margin-bottom: 24px;font-weight: 500;    margin-top: 9px;}
+.activityInformation h2 a{color: #333;}
+.activityInformation p{font-size: 14px;    line-height: 21px; color: #666;    margin-top: 9px;display: -webkit-box; -webkit-line-clamp: 2;overflow: hidden; -webkit-box-orient: vertical; word-break: break-all;}
+.activityInformation a.more{font-size: 12px;color: #666;float: right;    line-height: 30px; height: 30px;border: 1px solid #cccccc;    background: url(../images/moreIcon2.png) no-repeat 74px 12px;
+    padding-left: 14px;
+    letter-spacing: 0.6px;
+    padding-right: 29px;margin-top: 27px;}
+.activityList li{margin-bottom: 28px;    overflow: hidden;}
+.activityInformation p a{color:#666;}
+.pages { margin: 40px 0 10px 0; }
+@media (max-width:999px){
+	.activityImg { width: 380px; }
+	.activityInformation>div { padding: 5px 15px 0px 20px; }
+	.activityInformation p{    margin-top: 4px;}
+	.activityInformation h2{    margin-bottom: 10px;}
+	.activityInformation a.more{    margin-top: 18px;}
+}
+@media (max-width:768px){
+	.activityImg { width: 100%;float:inherit; }
+	.activityRight .activityImg{float:inherit;}
+	.activityRight .activityInformation,.activityInformation{float:inherit;}
+	.activityInformation a.more{background: url(../images/dir1.png) no-repeat 74px 3px;    padding-right: 40px;border: none;}
+	.activityInformation h2 { margin-bottom: 19px; }
+	.activityInformation p { margin-top: -1px; padding-left: 42px; text-indent: -42px; line-height: 31px; }
+	.activityInformation>div { padding: 22px 13px 27px 13px; }
+	.activityList li{margin-bottom: 30px;}
+	.activityList { padding-top: 32px; margin-bottom: 48px; }
+}

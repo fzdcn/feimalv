@@ -1,0 +1,142 @@
+.articleBody>img{float: left; margin-top: -12px;}
+.articleBody p{letter-spacing: 0.046px;}
+.articleBody p span{color: #df0615;font-weight: 600;}
+.historyNav .swiper-slide { float: left;text-align: center;cursor: pointer;font-family: \5FAE\8F6F\96C5\9ED1; font-size: 14px;height: 60px!important; line-height: 60px!important;    width:248.5px!important;border-top: 1px solid #d5d5d5;
+    border-bottom: 1px solid #d5d5d5;
+    border-right: 1px solid #d5d5d5;}
+.historyNav .swiper-slide a{color: #333333;display: block;    border: none;
+    background: #fff;}
+.historyNav .swiper-slide:first-child {
+    border-left: 1px solid #d5d5d5;
+}
+.historyNav .swiper-wrapper{height: 60px!important; line-height: 60px!important;}
+.historyNav .swiper-slide.on a,.historyNav .swiper-slide:hover a{color: #fff;background: #ee3124;}
+.historyNav .swiper-container{overflow: hidden;}
+.swiper-container02 {
+        overflow: hidden;
+    width: 501px;
+    margin: 0 auto;
+}
+.historyList{
+	    position: relative;
+    background: center no-repeat;
+    padding-top: 42px;
+    background-size: 2px 96%;
+    padding-bottom: 27px;
+}
+.historyLeft {
+    position: relative;
+    margin-bottom: 13px;
+}
+.historyRight {
+    position: relative;
+    margin-bottom: 9px;
+}
+.historyLeft .historyItem {
+    float: left;
+    width: 50%;
+    position: relative;
+}
+.historyRight .historyItem {
+    float: right;
+    width: 50%;
+    position: relative;
+}
+.historyList .history {
+    position: relative;
+    width:100%;
+}
+.historyRight table{float: left;margin-left: 4%;}
+.historyLeft table{float: right;margin-right: 4%;}
+.historyList table {
+	    width: 96%;
+}
+.historyIcon {
+    display: block;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 25px;
+    right: -5px;
+    background: url(../images/itemH2Icon.png) no-repeat center;
+    z-index: 8;
+}
+.historyLeft .historyImg{float: right;    padding-left: 17px;}
+.historyRight .historyImg{float: left;    padding-right: 17px;}
+td p{color: #666666;font-size: 12px;font-family: '\5B8B\4F53';line-height: 21px;}
+td h2{color: #333;font-size: 14px;letter-spacing: 0.6px;font-family: '\5B8B\4F53';   margin-top: 3px; margin-bottom: 12px;}
+.historyLeft .historyP{text-align: right;float: right;}
+.historyRight .historyP{text-align: left;float: left;}
+.line {
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    left: 50%;
+    top: 0px;
+    background: #d4d4d4;
+        margin-left: -1px;
+}
+.historyLeft p{margin-left: 9px;}
+.historyRight .historyIcon {
+    left: -5px;
+}
+.historyIcon1 {
+    width: 10px;
+    height: 10px;
+    background: url(../images/itemH2Icon.png) no-repeat;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    margin-left: -5px;
+    z-index: 100;
+}
+.article {
+    padding-bottom: 21px;
+}
+table img{max-width: 100%;}
+@media (max-width: 767px){
+	.historyNav .swiper-slide{    width: 132px!important;}
+	.swiper-container02{    width: 268px;}
+	
+.historyLeft .historyImg{padding-left: 0;width: 100%;text-align: right;}
+.historyRight .historyImg {
+    float: left;
+    padding-right: 0;
+        width: 100%;
+}
+.historyRight .historyImg {
+    float: left;
+    padding-right: 0;
+        width: 100%;
+}
+.historyP{    margin-top: 13px;}
+td h2{margin-bottom: 7px;}
+.historyRight{    margin-bottom: -21px;}
+.historyLeft p {
+     margin-left: 0; 
+}
+.historyLeft {
+    margin-bottom: -114px;
+}
+.historyLeft .historyP {
+    min-height: 130px;
+}
+}
+
+@media (max-width: 480px){
+	.article {
+    padding-bottom: 25px;
+}
+	.historyList table {
+    width: 82%;
+}
+.historyLeft table {
+    float: right;
+    margin-right: 18%;
+}
+.historyRight table {
+    float: left;
+    margin-left: 18%;
+}
+.historyList{    padding-top: 29px;   /* padding-bottom: 86px;*/}
+}

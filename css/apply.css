@@ -1,0 +1,47 @@
+/*表单*/
+.content form{width: 545px; margin: 0 auto;    margin-bottom: 50px;}
+.form-input{    margin-top: 50px;}
+.form-input ul{list-style: none;padding: 0px;}
+.form-input ul li{margin: 18px 0px;position: relative;}
+.form-input label{color: #333;font-size: 12px;text-align: left;letter-spacing: 3px;min-width: 100px;display: inline-block;text-align: right;}
+.form-input input{letter-spacing: 0.6px;color: #666; font-size: 12px;padding: 2px 10px;outline: 0;height: 22px;border: 1px solid #ddd;width: 405px;margin-left: 15px;}
+.form-input span{color: red;}
+.form-input textarea{color: #666; padding: 10px 10px;outline: 0;font-size: 12px;resize: none;border: 1px solid #ddd;width: 405px;margin-left: 15px; height: 61px;}
+.errorWrap .error {
+    color: red;top: 27px;
+    left: 98px;
+    position: absolute;
+}
+.textareaWrap .errorWrap .error{top: 82px;}
+.submitWrap {    padding-left: 102px;}
+.submitWrap .submit,.submitWrap .reset {
+    border: none;
+    outline: 0px;
+    margin-top: 24px;
+    margin-left: 13px;
+    font-size: 12px;
+    display: inline-block;
+    border-radius: 4px;
+    font-family: '\5B8B\4F53';
+    color: #fff;
+    letter-spacing: 1.4px;
+    background: #CF2830;
+    width: 80px;
+    height: 28px;
+    line-height: 20px;
+}
+.submitWrap .reset {
+    background: #D6D6D6;
+    color: #666;
+    border-radius: 4px;
+}
+
+@media (max-width:590px){
+	.form-input { margin-top: 30px; }
+	.form-input label{    min-width: 50px;letter-spacing: 0;}
+	.form-input input{    width: 216px;}
+	.form-input textarea{width: 216px;}
+	.content form { width: 305px; }
+	.errorWrap .error{left: 66px;}
+	.submitWrap { padding-left: 53px; }
+}
